@@ -1,3 +1,5 @@
 *.class
-color.css
+*.txt
+*.css
 .vscode/
+Q1.md
