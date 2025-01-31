@@ -27,7 +27,6 @@ class Student extends Person {
         this.semester = semester;
     }
 
-    @Override
     void display() {
         super.display();
         System.out.println("Branch: " + branch);
@@ -47,7 +46,6 @@ class Employee extends Person {
         this.salary = salary;
     }
 
-    @Override
     void display() {
         super.display();
         System.out.println("Organization: " + organization);
