@@ -1,0 +1,16 @@
+// Calculator to add two integers and two real numbers
+class Calculator {
+    static int add (int x, int y) {
+        return x + y;
+    }
+
+    static double add (double x, double y) {
+        return x + y;
+    }
+    // Making Static methods so that main can access them
+
+    public static void main(String args[]) {
+        System.out.println(add(5, 10));
+        System.out.println(add(5.5, 10));
+    }    
+}
