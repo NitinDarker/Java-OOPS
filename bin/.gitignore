@@ -1,3 +1,4 @@
 *.class
-color.css
+*.txt
+*.css
 .vscode/

@@ -59,5 +59,9 @@ class Q3 {
         // Add the sum object to itself
         sum = sum.addition(sum);
         sum.display(); // 50 + 36i
+
+        System.out.println(sum);
+        System.out.println(sum.hashCode());
+        System.out.println(sum.getClass());
     }
 }
