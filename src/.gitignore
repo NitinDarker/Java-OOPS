@@ -1,6 +1,5 @@
 *.class
 *.txt
 *.css
-bin/
 .vscode/
-Q1.md
+bin/
