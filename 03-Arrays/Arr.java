@@ -1,5 +1,6 @@
 import java.util.Arrays;
 public class Arr {
+    @SuppressWarnings({"ImplicitArrayToString", "ArrayHashCode"})
     public static void main(String args[]) {
         int a[] = new int[5];
         int [][]b = new int[5][];
