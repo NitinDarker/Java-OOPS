@@ -32,7 +32,7 @@ class Complex {
     }
 }
 
-class Q3 {
+public class Q3 {
     public static void main(String args[]) {
         Complex com1 = new Complex();
         com1.display(); // 0 + 0i
@@ -59,9 +59,5 @@ class Q3 {
         // Add the sum object to itself
         sum = sum.addition(sum);
         sum.display(); // 50 + 36i
-
-        System.out.println(sum);
-        System.out.println(sum.hashCode());
-        System.out.println(sum.getClass());
     }
 }

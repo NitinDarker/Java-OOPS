@@ -1,3 +1,4 @@
+// Lab Assignment 01 => Q-2
 class LineObj {
     // Object for a line
     Points p1, p2;

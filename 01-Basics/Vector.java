@@ -1,3 +1,4 @@
+// Lab Assignment 01 => Q-1
 class Points {
     // Class to store two co-ordinates in a plane
     int x, y;
