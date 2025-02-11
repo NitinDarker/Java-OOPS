@@ -1,5 +1,5 @@
 class Classic {
-    
+    // Empty class
 }
 
 public class Lab {
@@ -14,6 +14,8 @@ public class Lab {
         boolean bb = ob instanceof Classic;
         System.out.println(bb);
         System.out.println(ob.getClass());
+        System.out.println(ob);
+        System.out.println(ob.hashCode());
     }
     // instanceof
     // ob.getclass()
