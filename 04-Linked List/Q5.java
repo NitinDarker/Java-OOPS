@@ -1,3 +1,4 @@
+// Q5. Program to implement a linked list of integers
 class Node {
     // Class to represent a node in a linked list
     int data;
