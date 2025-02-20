@@ -10,7 +10,6 @@ This repository serves as a collection of Java programs I wrote as a beginner in
 
 
 
-
 ## 🔑 Key Concepts Covered
 - Classes & Objects
 - Encapsulation
