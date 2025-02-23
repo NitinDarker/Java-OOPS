@@ -1,8 +1,9 @@
 import java.util.Arrays;
+
 public class Arr {
     @SuppressWarnings({"ImplicitArrayToString", "ArrayHashCode"})
-    public static void main(String args[]) {
-        int a[] = new int[5];
+    public static void main(String[] args) {
+        int[] a = new int[5];
         int [][]b = new int[5][];
         System.out.println("1-D Array:");
         System.out.println(a);
@@ -12,7 +13,7 @@ public class Arr {
         System.out.println("\n2-D Array:");
         System.out.println(b);
         System.out.println(Arrays.toString(b));
-        System.out.println(Arrays.hashCode(b));
+        System.out.println(Arrays.deepHashCode(b));
         System.out.println(b.length);
         // System.out.println(b[0].length);
 
